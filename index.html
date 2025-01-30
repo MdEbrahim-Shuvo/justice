@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice</title>
+    <!-- favicon -->
+     <link rel="shortcut icon" href="images/Group 1.png" type="image/x-icon">
+    <!-- tailwind css CDN -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font-icon CDN -->
+    <script src="https://kit.fontawesome.com/84a173ef2c.js" crossorigin="anonymous"></script>
+    <!-- Css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="px-1 sm:px-0 space-y-16">
+    <!-- ====== Header-Section ======= -->
+    <header class="container mx-auto lg:max-w-5xl space-y-12 md:space-y-5">
+        <!-- === Nav-Bar ======= -->
+        <nav class="space-y-12 ">
+            <div class="navbar">
+                <div class="navbar-start flex gap-2 items-center">
+                  <div class="logo">
+                    <a href=""><img src="images/logo.png" alt=""></a>
+                  </div>
+                  <div class="logo-text">
+                    <a class="text-2xl sm:text-4xl font-extrabold text-black capitalize leading-11 font-eb-garamond cursor-pointer">Justice</a>
+                  </div>
+                </div>
+                <div class="navbar-center hidden md:block">
+                    <ul class="menu menu-horizontal px-1 gray-01 font-poppins capitalize">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact us</a></li>  
+                    </ul>
+                </div>
+                <div class="navbar-end font-poppins">
+                  <a class="rounded-lg cursor-pointer bg-text-primary text-sm lg:text-lg leading-7 font-medium lg:font-semibold hover:bg-amber-500 px-4 lg:px-8 py-3 text-white capitalize hidden sm:block">Free Consultation</a>
+                  <div class="dropdown sm:hidden">
+                    <div tabindex="0" role="button" class="btn btn-ghost ">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-10 w-10"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6l16 0 M10 12l10 0 M6 18l14 0"/>
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0 shadow items-end font-poppins gray-01 capitalize">
+                      <li><a>Home</a></li>
+                      <li><a>Services</a></li>
+                      <li><a>Cases</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <!-- ===== Banner-Part ===== -->
+        <div class="banner w-full rounded-lg relative bg-[url(images/banner.png)] bg-no-repeat  bg-cover bg-center">
+            <div class="absolute rounded-lg inset-0 bg-gradient-to-tr from-black to-transparent"></div>
+            <div class="hero">
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="p-10 md:p-20 lg:p-32 space-y-5 z-10">
+                        <h1 class=" text-4xl md:text-7xl font-bold md:font-extrabold leading-14 md:leading-20 font-eb-garamond capitalize text-white">We Provide Effective Legal Solutions</h1>
+                        <p class="leading-6 text-gray-300 font-poppins">
+                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                        </p>
+                        <div class="form font-poppins flex flex-col md:flex-row gap-5">
+                            <input class="capitalize p-5 outline-none bg-white w-full rounded-lg" type="text" placeholder="Search your services">
+                            <input class="text-xl leading-8 font-semibold text-white bg-text-primary px-10 py-4 rounded-lg cursor-pointer" type="submit" value="Search">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto lg:max-w-5xl space-y-16">
+        <!-- ====== Legal-Practice-Section ====== -->
+        <section id="legal-practice">
+            <div class="legal-practice-container space-y-16">
+                <div class="legal-pratice-titel-content text-center space-y-5 w-full md:w-3/5 mx-auto">
+                    <h2 class="text-4xl leading-12 font-extrabold font-eb-garamond">The Legal Practice Area</h2>
+                    <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+                <div class="legal-practice-card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    <div class="legal-card-1 text-center bg-gray-100 rounded-md shadow-xl px-2 md:px-10 lg:px-16 py-14 space-y-5">
+                        <div>
+                            <img class="mx-auto" src="images/legal-1.png" alt="">
+                        </div>
+                        <h3 class="capitalize font-eb-garamond text-2xl md:text-3xl font-extrabold leading-8 md:leading-10">Business Law</h3>
+                        <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div>
+                            <i class="fa-solid bg-text-primary h-8 w-8 inline-flex  items-center justify-center rounded-full fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="legal-card-2 text-center bg-gray-100 rounded-md shadow-xl px-2 md:px-10 lg:px-16 py-14 space-y-5">
+                        <div>
+                            <img class="mx-auto" src="images/legal-2.png" alt="">
+                        </div>
+                        <h3 class="capitalize font-eb-garamond text-2xl md:text-3xl font-extrabold leading-8 md:leading-10">Criminal Law</h3>
+                        <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div>
+                            <i class="fa-solid bg-text-primary h-8 w-8 inline-flex  items-center justify-center rounded-full fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="legal-card-3 text-center bg-gray-100 rounded-md shadow-xl px-2 md:px-10 lg:px-16 py-14 space-y-5">
+                        <div>
+                            <img class="mx-auto" src="images/legal-3.png" alt="">
+                        </div>
+                        <h3 class="capitalize font-eb-garamond text-2xl md:text-3xl font-extrabold leading-8 md:leading-10">Child Support</h3>
+                        <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div>
+                            <i class="fa-solid bg-text-primary h-8 w-8 inline-flex  items-center justify-center rounded-full fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="legal-card-4 text-center bg-gray-100 rounded-md shadow-xl px-2 md:px-10 lg:px-16 py-14 space-y-5">
+                        <div>
+                            <img class="mx-auto" src="images/legal-4.png" alt="">
+                        </div>
+                        <h3 class="capitalize font-eb-garamond text-2xl md:text-3xl font-extrabold leading-8 md:leading-10">Education Law</h3>
+                        <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div>
+                            <i class="fa-solid bg-text-primary h-8 w-8 inline-flex  items-center justify-center rounded-full fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="legal-card-5 text-center bg-gray-100 rounded-md shadow-xl px-2 md:px-10 lg:px-16 py-14 space-y-5">
+                        <div>
+                            <img class="mx-auto" src="images/legal-5.png" alt="">
+                        </div>
+                        <h3 class="capitalize font-eb-garamond text-2xl md:text-3xl font-extrabold leading-8 md:leading-10">Divorce Law</h3>
+                        <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div>
+                            <i class="fa-solid bg-text-primary h-8 w-8 inline-flex  items-center justify-center rounded-full fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="legal-card-6 text-center bg-gray-100 rounded-md shadow-xl px-2 md:px-10 lg:px-16 py-14 space-y-5">
+                        <div>
+                            <img class="mx-auto" src="images/legal-6.png" alt="">
+                        </div>
+                        <h3 class="capitalize font-eb-garamond text-2xl md:text-3xl font-extrabold leading-8 md:leading-10">Tax Law</h3>
+                        <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                        <div>
+                            <i class="fa-solid bg-text-primary h-8 w-8 inline-flex  items-center justify-center rounded-full fa-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== Client-Section ====== -->
+        <section id="clients">
+            <div class="clients-container space-y-10">
+                <div class="clients-titel-content text-center space-y-5 w-full md:w-3/5 mx-auto">
+                    <h2 class="text-4xl leading-12 font-extrabold font-eb-garamond">What Our Client Say</h2>
+                    <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div> 
+                <div class="banner w-full rounded-lg relative bg-[url(images/banner.png)] bg-no-repeat  bg-cover bg-center carousel w-full">
+                    <div class="absolute rounded-lg inset-0 bg-gradient-to-tr from-black to-transparent"></div>
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="clients-1 text-center px-5 md:px-20 lg:px-40 py-20 space-y-5">
+                            <div>
+                                <img class="mx-auto" src="images/clients-1.png" alt="">
+                            </div>
+                            <div>
+                                <h4 class="text-white font-extrabold text-2xl leading-8 font-eb-garamond capitalize">Awlad Hossain</h4>
+                                <h6 class="text-base text-white leading-6 font-poppins capitalize">UI/UX Designer</h6>
+                            </div>
+                            <p class="text-base leading-6 font-poppins text-gray-300">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            <div class="text-white">
+                                <a href="#slide1"><i class="fa-solid text-xl fa-minus"></i></a>
+                                <a href="#slide2"><i class="fa-solid text-xl fa-minus"></i></a>
+                               <a href="#slide3"><i class="fa-solid text-xl fa-minus"></i></a>
+                            </div>
+                        </div> 
+                        <div class="hidden sm:block">
+                            <div class="absolute left-8 right-8 top-1/2 flex justify-between text-white ">
+                                <a href="#slide3" class=" text-3xl">❮</a>
+                                <a href="#slide2" class=" text-3xl">❯</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="clients-1 text-center px-5 md:px-20 lg:px-40 py-20 space-y-5">
+                            <div>
+                                <img class="mx-auto" src="images/clients-2.png" alt="">
+                            </div>
+                            <div>
+                                <h4 class="text-white font-extrabold text-2xl leading-8 font-eb-garamond capitalize">Regan miller</h4>
+                                <h6 class="text-base text-white leading-6 font-poppins capitalize">Front-End Developer</h6>
+                            </div>
+                            <p class="text-base leading-6 font-poppins text-gray-300">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            <div class="text-white">
+                                <a href="#slide1"><i class="fa-solid text-xl fa-minus"></i></a>
+                                <a href="#slide2"><i class="fa-solid text-xl fa-minus"></i></a>
+                               <a href="#slide3"><i class="fa-solid text-xl fa-minus"></i></a>
+                            </div>
+                        </div> 
+                        <div class="hidden sm:block">
+                            <div class="absolute left-8 right-8 top-1/2 flex justify-between text-white ">
+                                <a href="#slide3" class=" text-3xl">❮</a>
+                                <a href="#slide2" class=" text-3xl">❯</a>
+                            </div>
+                        </div>
+                    </div> 
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="clients-1 text-center px-5 md:px-20 lg:px-40 py-20 space-y-5">
+                            <div>
+                                <img class="mx-auto" src="images/clients-3.png" alt="">
+                            </div>
+                            <div>
+                                <h4 class="text-white font-extrabold text-2xl leading-8 font-eb-garamond capitalize">xin huangnim</h4>
+                                <h6 class="text-base text-white leading-6 font-poppins capitalize">Product Manager</h6>
+                            </div>
+                            <p class="text-base leading-6 font-poppins text-gray-300">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                            <div class="text-white">
+                                <a href="#slide1"><i class="fa-solid text-xl fa-minus"></i></a>
+                                <a href="#slide2"><i class="fa-solid text-xl fa-minus"></i></a>
+                               <a href="#slide3"><i class="fa-solid text-xl fa-minus"></i></a>
+                            </div>
+                        </div> 
+                        <div class="hidden sm:block">
+                            <div class="absolute left-8 right-8 top-1/2 flex justify-between text-white ">
+                                <a href="#slide3" class=" text-3xl">❮</a>
+                                <a href="#slide2" class=" text-3xl">❯</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== faq ====== -->
+        <section id="faq">
+            <div class="faq-container space-y-10">
+                <div class="faq-titel-content text-center space-y-5 w-full md:w-3/5 mx-auto">
+                    <h2 class="text-4xl leading-12 font-extrabold font-eb-garamond">Frequently Asked Any Questions</h2>
+                    <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div> 
+                <div class="faq-box-container flex flex-col md:flex-row-reverse gap-2 space-y-5 items-center">
+                    <div class="faq-img-content w-full md:1/2 lg:w-2/5">
+                      <img class="mx-auto" src="images/Frame.png" alt="">
+                    </div>
+                    <div class="faq-accordian-content px-8 w-full md:1/2 lg:w-3/5">
+                      <div class="w-full block space-y-3">
+                        <div class="collapse collapse-plus bg-base-200">
+                          <input type="radio" name="my-accordion-2" checked="checked" />
+                          <div class="collapse-title text-2xl leading-7 text-gray-700 font-extrabold font-eb-garamond">1. Are application fee waivers available?</div>
+                          <div class="collapse-content">
+                            <p class="gray-01 leading-7 font-poppins">Yes, some institutions offer application fee waivers based on eligibility.</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                          <input type="radio" name="my-accordion-2" />
+                          <div class="collapse-title text-2xl leading-7 text-gray-700 font-extrabold font-eb-garamond">2. My bike has been in storage is it safe to ride?</div>
+                          <div class="collapse-content">
+                            <p class="gray-01 leading-7 font-poppins">Check tires, brakes, and chain before riding; if all good, it’s safe.</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                          <input type="radio" name="my-accordion-2" />
+                          <div class="collapse-title text-2xl leading-7 text-gray-700 font-extrabold font-eb-garamond">3. How can I tell if my helmet is old and I need a new one?</div>
+                          <div class="collapse-content">
+                            <p class="gray-01 leading-7 font-poppins">Replace your helmet if it’s been in an impact, is over 5 years old, has damaged foam, worn straps, or no longer fits properly.</p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-plus bg-base-200">
+                          <input type="radio" name="my-accordion-2" />
+                          <div class="collapse-title text-2xl leading-7 text-gray-700 font-extrabold font-eb-garamond">4. What rules should I follow when riding my bike?</div>
+                          <div class="collapse-content">
+                            <p class="gray-01 leading-7 font-poppins">Follow traffic laws, wear a helmet, use hand signals, stay visible, ride in bike lanes, and avoid distractions.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- ===== contact-Section ====== -->
+        <section id="contact">
+            <div class="contact-container space-y-16">
+                <div class="contact-titel-content text-center space-y-5 w-full md:w-3/5 mx-auto">
+                    <h2 class="text-4xl leading-12 font-extrabold font-eb-garamond">Contact With Us</h2>
+                    <p class="font-poppins leading-6 text-gray-500">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                </div>
+                <div class="cotact-box-container  flex gap-5 flex-col md:flex-row">
+                    <div class="address-card-container w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2">
+                        <div class="address-1 border  px-2 lg:px-16 py-16 text-center bg-gray-243 rounded-md space-y-3">
+                            <div>
+                                <i class="fa-solid tex-primary text-3xl fa-location-dot"></i>
+                            </div>
+                            <h4 class="font-extrabold text-2xl font-eb-garamond leading-8 capitalize">Address</h4>
+                            <div>
+                                <p class="leading-6 font-poppins gray-01">A108 Adam Street,</p>
+                                <p class="leading-6 font-poppins gray-01">New York, NY 535022</p>
+                            </div>
+                        </div>
+                        <div class="address-2 border px-2 lg:px-16 py-16 text-center bg-gray-243 rounded-md space-y-3">
+                            <div>
+                                <i class="fa-solid tex-primary text-3xl fa-phone"></i>
+                            </div>
+                            <h4 class="font-extrabold text-2xl font-eb-garamond leading-8 capitalize">call us
+
+                            </h4>
+                            <div>
+                                <p class="leading-6 font-poppins gray-01">+88 01750 00 00 00</p>
+                                <p class="leading-6 font-poppins gray-01">+88 01750 00 00 00</p>
+                            </div>
+                        </div>
+                        <div class="address-3 border px-2 lg:px-16 py-16 text-center bg-gray-243 rounded-md space-y-3">
+                            <div>
+                                <i class="fa-solid tex-primary text-3xl fa-envelope"></i>
+                            </div>
+                            <h4 class="font-extrabold text-2xl font-eb-garamond leading-8 capitalize">e-mail us
+
+                            </h4>
+                            <div>
+                                <p class="leading-6 font-poppins gray-01">justice@info.com</p>
+                                <p class="leading-6 font-poppins gray-01">contact@justic.com</p>
+                            </div>
+                        </div>
+                        <div class="address-4 border px-2 lg:px-16 py-16 text-center bg-gray-243 rounded-md space-y-3">
+                            <div>
+                                <i class="fa-regular tex-primary text-3xl fa-clock"></i>
+                            </div>
+                            <h4 class="font-extrabold text-2xl font-eb-garamond leading-8 capitalize">Working Hours</h4>
+                            <div>
+                                <p class="leading-6 font-poppins gray-01">Mon-Fri: 9AM to 5PM</p>
+                                <p class="leading-6 font-poppins gray-01">Sunday: 9AM to 1 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-form-container w-full md:w-1/2">
+                        <form action="" class=" space-y-3">
+                            <div class="">
+                                <input class="capitalize p-6 bg-gray-243 w-full font-poppins leading-6 rounded-lg" type="text" placeholder="your name">
+                            </div>
+                            <div class="">
+                                <input class="capitalize p-6 bg-gray-243 w-full font-poppins leading-6 rounded-lg" type="email" placeholder="your Email">
+                            </div>
+                            <div class="">
+                                <input class="capitalize p-6 bg-gray-243 w-full font-poppins leading-6 rounded-lg" type="text" placeholder="subject">
+                            </div>
+                                <textarea class="capitalize p-6 bg-gray-243 w-full font-poppins leading-6 h-52 rounded-lg" placeholder="your message"></textarea>
+                            <div>
+                                <input class="text-xl leading-8 font-semibold text-white bg-text-primary text-center p-6 rounded-lg w-full cursor-pointer" type="submit" value="send message">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- <footer class="black-17">
+        <div class="footer-container">
+
+        </div>
+    </footer> -->
+    <footer class="footer black-17 p-10">
+        <div class="footer-container footer md:gap-10 lg:gap-16 text-base-content container mx-auto lg:max-w-5xl">
+            <div class="footer-logo link-1 space-y-3">
+                <div class="logo-container flex gap-3 items-center">
+                    <div class="logo-ima">
+                        <img class="w-full" src="images/logo.png" alt="">
+                    </div>
+                    <div>
+                        <h2 class="font-eb-garamond font-extrabold text-4xl leading-11 capitalize text-white">Justice</h2>
+                    </div>  
+                </div>
+                <p class="text-white font-poppins leading-6">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p> 
+            </div>
+            <div class="link-2">
+                <h2 class="font-eb-garamond text-2xl text-white leading-8 font-extrabold capitalize">Usefull Link</h2>
+                <ul class="font-poppins capitalize text-white space-y-3">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Cases</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Countact us</a></li>
+                </ul>
+            </div>
+            <div class="link-3 font-poppins capitalize text-white space-y-2">
+                <h2 class="font-eb-garamond text-2xl leading-8 font-extrabold capitalize">Contact Now</h2>
+                <div>
+                    <p>555 4th 5t NW, Washington</p>
+                    <p>DC 20530, United States</p>
+                </div>
+                <div>
+                    <p>+88 01750 000 000</p>
+                    <p>+88 01750 000 000</p>
+                </div>
+                <div>
+                    <p>justice@info.com</p>
+                    <p>contact@info.com</p>
+                </div>
+            </div>
+            <div class="link-4 capitalize text-white">
+                <form class="space-y-3">
+                    <h2 class="font-eb-garamond text-2xl leading-8 font-extrabold capitalize">Subscribe</h2>
+                    <p class="font-poppins leading-6 ">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+                    <div class="flex  md:w-60">
+                        <div dir="ltr">
+                            <input type="email" class="font-poppins outline outline-0 w-full rounded-s-lg leading-6 bg-white text-black py-6 px-4 lg:px-8" placeholder="Email address">
+                        </div>
+                        <div dir="rtl">
+                            <button class=""><i class="fa-solid p-6 w-full bg-text-primary rounded-s-lg leading-6 fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>
